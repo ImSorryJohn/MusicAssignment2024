@@ -72,8 +72,6 @@ stream = ExtResource("3_v5ay1")
 [node name="EVALAKRISKO" type="AudioStreamPlayer" parent="Node2D"]
 stream = ExtResource("4_sg743")
 
-[node name="Area2D" type="Area2D" parent="Node2D"]
-
 [node name="Sprite2D" type="Sprite2D" parent="Node2D"]
 z_index = -1
 position = Vector2(580.5, 323.75)
