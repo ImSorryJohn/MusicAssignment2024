@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3hna4m0u6ed2"
+path="res://.godot/imported/Evala Krisko.mp3-78498f9eb49560ecb59c04f24ca4f218.mp3str"
+
+[deps]
+
+source_file="res://Evala Krisko.mp3"
+dest_files=["res://.godot/imported/Evala Krisko.mp3-78498f9eb49560ecb59c04f24ca4f218.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
