@@ -12,8 +12,8 @@ func _process(delta: float) -> void:
 
 
 func _on_button_pressed() -> void:
-	$StartPlay.play()
+	$"EDNO FERRARI".play()
 
 
-func _on_return_pressed() -> void:
+func _on_button_2_pressed() -> void:
 	get_tree().change_scene_to_file("res://Start.tscn")

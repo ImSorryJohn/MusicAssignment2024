@@ -4,3 +4,7 @@ res://Guitar.tscn
 res://guitar.tscn
 res://soundboard.tscn
 res://chalga_bace.tscn
+res://start.gd
+res://chalga_bace.gd
+res://soundboard.gd
+res://guitar.gd
