@@ -75,6 +75,30 @@ text = "GSM GSM GSM"
 [node name="GSMGSMGSM" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_sngf0")
 
+[node name="StopSlavi1" type="Button" parent="."]
+offset_left = 251.0
+offset_top = 145.0
+offset_right = 298.0
+offset_bottom = 189.0
+theme_override_fonts/font = ExtResource("3_36m35")
+text = "Off"
+
+[node name="StopLuda" type="Button" parent="."]
+offset_left = 263.0
+offset_top = 243.0
+offset_right = 310.0
+offset_bottom = 287.0
+theme_override_fonts/font = ExtResource("3_36m35")
+text = "Off"
+
+[node name="StopGSMGSMGSM" type="Button" parent="."]
+offset_left = 251.0
+offset_top = 357.0
+offset_right = 298.0
+offset_bottom = 401.0
+theme_override_fonts/font = ExtResource("3_36m35")
+text = "Off"
+
 [connection signal="pressed" from="Edno Ferrari" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Edno Ferrari" to="." method="_on_edno_ferrari_pressed"]
 [connection signal="pressed" from="Return" to="." method="_on_button_2_pressed"]
@@ -82,3 +106,7 @@ stream = ExtResource("6_sngf0")
 [connection signal="pressed" from="LudaPoTebe" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="LudaPoTebe" to="." method="_on_luda_po_tebe_pressed"]
 [connection signal="pressed" from="GSMGSMGSM2" to="." method="_on_gsmgsmgsm_2_pressed"]
+[connection signal="pressed" from="StopSlavi1" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="StopSlavi1" to="." method="_on_stop_slavi_1_pressed"]
+[connection signal="pressed" from="StopLuda" to="." method="_on_stop_luda_pressed"]
+[connection signal="pressed" from="StopGSMGSMGSM" to="." method="_on_stop_gsmgsmgsm_pressed"]
