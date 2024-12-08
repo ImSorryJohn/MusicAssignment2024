@@ -26,7 +26,7 @@ func _on_button_2_pressed() -> void:
 
 
 func _on_button_2_mouse_entered() -> void:
-	$Hover.play()
+	$EVALAKRISKO.play()
 
 
 func _on_button_3_pressed() -> void:
@@ -35,4 +35,4 @@ func _on_button_3_pressed() -> void:
 
 
 func _on_button_3_mouse_entered() -> void:
-	$Hover.play()
+	$Press.play()

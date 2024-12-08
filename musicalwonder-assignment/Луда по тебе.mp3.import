@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cv1ymth2kvse3"
+path="res://.godot/imported/Луда по тебе.mp3-6dc03a6d52a9aa86610886579ed069ad.mp3str"
+
+[deps]
+
+source_file="res://Луда по тебе.mp3"
+dest_files=["res://.godot/imported/Луда по тебе.mp3-6dc03a6d52a9aa86610886579ed069ad.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

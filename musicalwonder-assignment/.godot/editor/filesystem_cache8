@@ -1,21 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733616016
+::res://::1733618648
 2061404.webp::CompressedTexture2D::8651155827463250745::1733615527::1733615528::1::::<><>::
 discord-notification.mp3::AudioStreamMP3::7879705689758546365::1733606004::1733610584::1::::<><>::
-Edno Ferrari Model 2019 - Copy.mp3::AudioStreamMP3::5490754572432987941::1733610796::1733610797::1::::<><>::
 Edno Ferrari Model 2019.mp3::AudioStreamMP3::7990654499374482986::1733610796::1733610796::1::::<><>::
 Evala Krisko.mp3::AudioStreamMP3::1980529129927931881::1733610825::1733610825::1::::<><>::
-Gledai Kak Se Pravi - Copy.mp3::AudioStreamMP3::8618713185322344901::1733610796::1733610797::1::::<><>::
 Gledai Kak Se Pravi.mp3::AudioStreamMP3::3558149992442743218::1733610796::1733610797::1::::<><>::
-guitar.gd::GDScript::-1::1733606004::0::1::::<>Node2D<>::
+GSMGSMGSM.mp3::AudioStreamMP3::7837405389186082948::1733618648::1733618648::1::::<><>::
+guitar.gd::GDScript::-1::1733616551::0::1::::<>Node2D<>::
 icon.svg::CompressedTexture2D::6535274779585176728::1733606004::1733610584::1::::<><>::
 control.gd::GDScript::-1::1733613342::0::1::::<>RefCounted<>::
-guitar.tscn::PackedScene::1719877864413733371::1733615549::0::1::::<><>::
-chalga_bace.tscn::PackedScene::8142510325032704164::1733615550::0::1::::<><>::uid://dvixjjbp3c370::::res://2061404.webp
-chalga_bace.gd::GDScript::-1::1733615630::0::1::::<>Node2D<>::
+guitar.tscn::PackedScene::1719877864413733371::1733617595::0::1::::<><>::res://guitar.gd
+chalga_bace.tscn::PackedScene::8142510325032704164::1733617595::0::1::::<><>::uid://dvixjjbp3c370::::res://2061404.webp<>res://chalga_bace.gd<>uid://bi5ywbv16phgw::::res://NewRocker-Regular.ttf<>uid://dl3y6apmgkaq1::::res://Edno Ferrari Model 2019.mp3<>uid://cv1ymth2kvse3::::res://Луда по тебе.mp3
+chalga_bace.gd::GDScript::-1::1733617593::0::1::::<>Node2D<>::
 NewRocker-Regular.ttf::FontFile::3011359346899044454::1733616016::1733616016::1::::<><>::
-start.gd::GDScript::-1::1733613929::0::1::::<>Node2D<>::
-soundboard.tscn::PackedScene::3841603436816028103::1733615549::0::1::::<><>::
-Start.tscn::PackedScene::7990432117772590508::1733615549::0::1::::<><>::res://start.gd<>uid://7a1vxpxsfbtf::::res://sound-fx-super-mario-let-s-go.wav<>uid://dki8upkhiam6p::::res://discord-notification.mp3<>uid://3hna4m0u6ed2::::res://Evala Krisko.mp3<>uid://sf5uu74y4862::::res://thumb-350-1355525.webp
+Olde Thorass.otf::FontFile::8671769624442666758::1733617680::1733617790::1::::<><>::
+soundboard.gd::GDScript::-1::1733616533::0::1::::<>Node2D<>::
+start.gd::GDScript::-1::1733616746::0::1::::<>Node2D<>::
+soundboard.tscn::PackedScene::3841603436816028103::1733617595::0::1::::<><>::res://soundboard.gd
+Start.tscn::PackedScene::7990432117772590508::1733617877::0::1::::<><>::res://start.gd<>uid://dvsw1qid5t7i5::::res://Olde Thorass.otf<>uid://7a1vxpxsfbtf::::res://sound-fx-super-mario-let-s-go.wav<>uid://dki8upkhiam6p::::res://discord-notification.mp3<>uid://3hna4m0u6ed2::::res://Evala Krisko.mp3<>uid://sf5uu74y4862::::res://thumb-350-1355525.webp
 sound-fx-super-mario-let-s-go.wav::AudioStreamWAV::2247660372179353847::1733606004::1733610584::1::::<><>::
 thumb-350-1355525.webp::CompressedTexture2D::1275579401167596229::1733613295::1733613296::1::::<><>::
+Луда по тебе.mp3::AudioStreamMP3::6301960552741940052::1733616880::1733616881::1::::<><>::

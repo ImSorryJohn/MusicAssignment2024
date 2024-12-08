@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://dl3viqq28pd3a"]
+[gd_scene load_steps=7 format=3 uid="uid://dl3viqq28pd3a"]
 
 [ext_resource type="Script" path="res://start.gd" id="1_vnsjb"]
+[ext_resource type="FontFile" uid="uid://dvsw1qid5t7i5" path="res://Olde Thorass.otf" id="2_5bfb4"]
 [ext_resource type="AudioStream" uid="uid://7a1vxpxsfbtf" path="res://sound-fx-super-mario-let-s-go.wav" id="2_ajmrs"]
 [ext_resource type="AudioStream" uid="uid://dki8upkhiam6p" path="res://discord-notification.mp3" id="3_v5ay1"]
 [ext_resource type="AudioStream" uid="uid://3hna4m0u6ed2" path="res://Evala Krisko.mp3" id="4_sg743"]
@@ -37,6 +38,7 @@ offset_right = 681.0
 offset_bottom = 437.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_5bfb4")
 theme_override_font_sizes/font_size = 30
 text = "CHALGA"
 metadata/_edit_use_anchors_ = true

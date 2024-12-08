@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://doaj7qpy8wi5i"]
+[gd_scene load_steps=7 format=3 uid="uid://doaj7qpy8wi5i"]
 
 [ext_resource type="Texture2D" uid="uid://dvixjjbp3c370" path="res://2061404.webp" id="1_et0j3"]
 [ext_resource type="Script" path="res://chalga_bace.gd" id="1_njxed"]
 [ext_resource type="FontFile" uid="uid://bi5ywbv16phgw" path="res://NewRocker-Regular.ttf" id="3_36m35"]
 [ext_resource type="AudioStream" uid="uid://dl3y6apmgkaq1" path="res://Edno Ferrari Model 2019.mp3" id="4_f31cr"]
+[ext_resource type="AudioStream" uid="uid://cv1ymth2kvse3" path="res://Луда по тебе.mp3" id="5_8cc8v"]
+[ext_resource type="AudioStream" uid="uid://djwq6lqr0ijk3" path="res://GSMGSMGSM.mp3" id="6_sngf0"]
 
 [node name="Chalga Bace" type="Node2D"]
 script = ExtResource("1_njxed")
@@ -13,25 +15,29 @@ position = Vector2(580.875, 332.602)
 scale = Vector2(1.49031, 1.48622)
 texture = ExtResource("1_et0j3")
 
-[node name="Button" type="Button" parent="."]
+[node name="Edno Ferrari" type="Button" parent="."]
 offset_left = 127.0
 offset_top = 145.0
 offset_right = 251.0
 offset_bottom = 189.0
 theme_override_fonts/font = ExtResource("3_36m35")
 theme_override_font_sizes/font_size = 20
-text = "One Ferrari"
+text = "Edno Ferrari"
 
 [node name="EDNO FERRARI" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_f31cr")
 
 [node name="HSlider" type="HSlider" parent="."]
-offset_right = 8.0
-offset_bottom = 16.0
+offset_left = 65.0
+offset_top = 194.0
+offset_right = 320.0
+offset_bottom = 210.0
 
 [node name="VSlider" type="VSlider" parent="."]
-offset_right = 16.0
-offset_bottom = 8.0
+offset_left = 346.0
+offset_top = 27.0
+offset_right = 362.0
+offset_bottom = 226.0
 
 [node name="Return" type="Button" parent="."]
 anchors_preset = 4
@@ -45,5 +51,34 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 30
 text = "Return"
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[node name="LudaPoTebe" type="Button" parent="."]
+offset_left = 138.0
+offset_top = 243.0
+offset_right = 262.0
+offset_bottom = 287.0
+theme_override_fonts/font = ExtResource("3_36m35")
+theme_override_font_sizes/font_size = 20
+text = "Luda Po Tebe"
+
+[node name="Luda Po Tebe" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_8cc8v")
+
+[node name="GSMGSMGSM2" type="Button" parent="."]
+offset_left = 125.0
+offset_top = 358.0
+offset_right = 251.0
+offset_bottom = 401.0
+theme_override_fonts/font = ExtResource("3_36m35")
+theme_override_font_sizes/font_size = 17
+text = "GSM GSM GSM"
+
+[node name="GSMGSMGSM" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_sngf0")
+
+[connection signal="pressed" from="Edno Ferrari" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Edno Ferrari" to="." method="_on_edno_ferrari_pressed"]
 [connection signal="pressed" from="Return" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
+[connection signal="pressed" from="LudaPoTebe" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="LudaPoTebe" to="." method="_on_luda_po_tebe_pressed"]
+[connection signal="pressed" from="GSMGSMGSM2" to="." method="_on_gsmgsmgsm_2_pressed"]
