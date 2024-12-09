@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dx41ce7ibf16c"]
+[gd_scene load_steps=16 format=3 uid="uid://dx41ce7ibf16c"]
 
 [ext_resource type="Script" path="res://el_guitar.gd" id="1_j3ar6"]
 [ext_resource type="Texture2D" uid="uid://c51uabfnx1rg0" path="res://06022023_POWERSELECTRIC_NEWCOLORS_ONWHITEANDONSET_6008_2_1600x.webp" id="2_a7grv"]
@@ -13,6 +13,12 @@
 [ext_resource type="AudioStream" uid="uid://cdehukeabhsd8" path="res://Electric Guitar Quick Chords/EMAJOR.mp3" id="10_p8j2t"]
 [ext_resource type="AudioStream" uid="uid://d3brehr6hqk2b" path="res://Electric Guitar Quick Chords/EMINOR.mp3" id="11_ijh5n"]
 [ext_resource type="AudioStream" uid="uid://ccvkeyxrl6ae1" path="res://Electric Guitar Quick Chords/FMAJOR.mp3" id="12_3yhtm"]
+
+[sub_resource type="InputEventAction" id="InputEventAction_yggod"]
+action = &"AMajor"
+
+[sub_resource type="Shortcut" id="Shortcut_sy6d6"]
+events = [SubResource("InputEventAction_yggod")]
 
 [node name="ElGuitar" type="Node2D"]
 script = ExtResource("1_j3ar6")
@@ -41,11 +47,13 @@ offset_top = 352.0
 offset_right = 932.0
 offset_bottom = 417.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_sy6d6")
 text = "A+
 (Q)"
 
 [node name="AMAJOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_xnp5y")
+bus = &"AMAJOR"
 
 [node name="AMINOR2" type="Button" parent="."]
 offset_left = 937.0
@@ -58,6 +66,7 @@ text = "A-
 
 [node name="AMINOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_fob8n")
+bus = &"AMINOR"
 
 [node name="BMAJOR2" type="Button" parent="."]
 offset_left = 868.0
@@ -70,6 +79,7 @@ text = "B+
 
 [node name="BMAJOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_iil1j")
+bus = &"BMAJOR"
 
 [node name="BMINOR2" type="Button" parent="."]
 offset_left = 937.0
@@ -82,6 +92,7 @@ text = "B-
 
 [node name="BMINOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_fqiaj")
+bus = &"BMINOR"
 
 [node name="CMAJOR2" type="Button" parent="."]
 offset_left = 868.0
@@ -94,6 +105,7 @@ text = "C+
 
 [node name="CMAJOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_4t44c")
+bus = &"CMAJOR"
 
 [node name="CMINOR2" type="Button" parent="."]
 offset_left = 937.0
@@ -106,6 +118,7 @@ text = "C-
 
 [node name="CMINOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("7_ughgy")
+bus = &"CMINOR"
 
 [node name="DMAJOR2" type="Button" parent="."]
 offset_left = 868.0
@@ -118,6 +131,7 @@ text = "D+
 
 [node name="DMAJOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("8_csywk")
+bus = &"DMAJOR"
 
 [node name="DMINOR2" type="Button" parent="."]
 offset_left = 938.0
@@ -130,6 +144,7 @@ text = "D-
 
 [node name="DMINOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("9_sodmq")
+bus = &"DMINOR"
 
 [node name="EMAJOR2" type="Button" parent="."]
 offset_left = 1007.0
@@ -142,6 +157,7 @@ text = "E+
 
 [node name="EMAJOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("10_p8j2t")
+bus = &"EMAJOR"
 
 [node name="EMINOR2" type="Button" parent="."]
 offset_left = 1077.0
@@ -154,6 +170,7 @@ text = "E-
 
 [node name="EMINOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("11_ijh5n")
+bus = &"EMINOR"
 
 [node name="FMAJOR2" type="Button" parent="."]
 offset_left = 1007.0
@@ -166,6 +183,7 @@ text = "F+
 
 [node name="FMAJOR" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("12_3yhtm")
+bus = &"FMAJOR"
 
 [node name="FMINOR" type="Button" parent="."]
 offset_left = 1077.0
@@ -177,6 +195,7 @@ text = "F-
 (L)"
 
 [node name="FMINOR2" type="AudioStreamPlayer" parent="."]
+bus = &"FMINOR"
 
 [node name="GMAJOR2" type="Button" parent="."]
 offset_left = 1007.0
@@ -188,6 +207,7 @@ text = "G+
 (P)"
 
 [node name="GMAJOR" type="AudioStreamPlayer" parent="."]
+bus = &"GMAJOR"
 
 [node name="GMINOR2" type="Button" parent="."]
 offset_left = 1077.0
@@ -199,19 +219,132 @@ text = "G-
 (;)"
 
 [node name="GMINOR" type="AudioStreamPlayer" parent="."]
+bus = &"GMINOR"
+
+[node name="VSliderGMAJ" type="VSlider" parent="."]
+offset_left = 827.0
+offset_top = 354.0
+offset_right = 843.0
+offset_bottom = 629.0
+max_value = 1.0
+step = 0.001
+
+[node name="VSliderFMAJ" type="VSlider" parent="."]
+offset_left = 807.0
+offset_top = 354.0
+offset_right = 823.0
+offset_bottom = 629.0
+max_value = 1.0
+step = 0.001
+
+[node name="VSliderEMAJ" type="VSlider" parent="."]
+offset_left = 787.0
+offset_top = 354.0
+offset_right = 803.0
+offset_bottom = 629.0
+max_value = 1.0
+step = 0.001
+
+[node name="VSliderDMAJ" type="VSlider" parent="."]
+offset_left = 767.0
+offset_top = 354.0
+offset_right = 783.0
+offset_bottom = 629.0
+max_value = 1.0
+step = 0.001
+
+[node name="VSliderCMAJ" type="VSlider" parent="."]
+offset_left = 747.0
+offset_top = 354.0
+offset_right = 763.0
+offset_bottom = 629.0
+max_value = 1.0
+step = 0.001
+
+[node name="VSliderBMAJ" type="VSlider" parent="."]
+offset_left = 727.0
+offset_top = 354.0
+offset_right = 743.0
+offset_bottom = 629.0
+max_value = 1.0
+step = 0.001
+
+[node name="VSliderAMAJ" type="VSlider" parent="."]
+offset_left = 707.0
+offset_top = 354.0
+offset_right = 723.0
+offset_bottom = 629.0
+max_value = 1.0
+step = 0.001
+
+[node name="HSliderGMI" type="HSlider" parent="."]
+offset_left = 867.0
+offset_top = 312.0
+offset_right = 1143.0
+offset_bottom = 328.0
+max_value = 1.0
+step = 0.001
+
+[node name="HSliderFMI" type="HSlider" parent="."]
+offset_left = 867.0
+offset_top = 292.0
+offset_right = 1143.0
+offset_bottom = 308.0
+max_value = 1.0
+step = 0.001
+
+[node name="HSliderEMI" type="HSlider" parent="."]
+offset_left = 867.0
+offset_top = 272.0
+offset_right = 1143.0
+offset_bottom = 288.0
+max_value = 1.0
+step = 0.001
+
+[node name="HSliderDMI" type="HSlider" parent="."]
+offset_left = 867.0
+offset_top = 252.0
+offset_right = 1143.0
+offset_bottom = 268.0
+max_value = 1.0
+step = 0.001
+
+[node name="HSliderCMI" type="HSlider" parent="."]
+offset_left = 867.0
+offset_top = 232.0
+offset_right = 1143.0
+offset_bottom = 248.0
+max_value = 1.0
+step = 0.001
+
+[node name="HSliderBMI" type="HSlider" parent="."]
+offset_left = 867.0
+offset_top = 212.0
+offset_right = 1143.0
+offset_bottom = 228.0
+max_value = 1.0
+step = 0.001
+
+[node name="HSliderAMI" type="HSlider" parent="."]
+offset_left = 867.0
+offset_top = 192.0
+offset_right = 1143.0
+offset_bottom = 208.0
+max_value = 1.0
+step = 0.001
 
 [connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
-[connection signal="button_down" from="AMAJOR2" to="." method="_on_amajor_2_button_down"]
-[connection signal="button_down" from="AMINOR2" to="." method="_on_aminor_2_button_down"]
-[connection signal="button_down" from="BMAJOR2" to="." method="_on_bmajor_2_button_down"]
-[connection signal="button_down" from="BMINOR2" to="." method="_on_bminor_2_button_down"]
-[connection signal="button_down" from="CMAJOR2" to="." method="_on_cmajor_2_button_down"]
-[connection signal="button_down" from="CMINOR2" to="." method="_on_cminor_2_button_down"]
-[connection signal="button_down" from="DMAJOR2" to="." method="_on_dmajor_2_button_down"]
-[connection signal="button_down" from="DMINOR2" to="." method="_on_dminor_2_button_down"]
-[connection signal="button_down" from="EMAJOR2" to="." method="_on_emajor_2_button_down"]
-[connection signal="button_down" from="EMINOR2" to="." method="_on_eminor_2_button_down"]
-[connection signal="button_down" from="FMAJOR2" to="." method="_on_fmajor_2_button_down"]
-[connection signal="button_down" from="FMINOR" to="." method="_on_fminor_button_down"]
-[connection signal="button_down" from="GMAJOR2" to="." method="_on_gmajor_2_button_down"]
-[connection signal="button_down" from="GMINOR2" to="." method="_on_gminor_2_button_down"]
+[connection signal="pressed" from="AMAJOR2" to="." method="_on_amajor_2_pressed"]
+[connection signal="pressed" from="AMINOR2" to="." method="_on_aminor_2_pressed"]
+[connection signal="pressed" from="BMAJOR2" to="." method="_on_bmajor_2_pressed"]
+[connection signal="pressed" from="BMINOR2" to="." method="_on_bminor_2_pressed"]
+[connection signal="pressed" from="CMAJOR2" to="." method="_on_cmajor_2_pressed"]
+[connection signal="pressed" from="CMINOR2" to="." method="_on_cminor_2_pressed"]
+[connection signal="pressed" from="DMAJOR2" to="." method="_on_dmajor_2_pressed"]
+[connection signal="pressed" from="DMINOR2" to="." method="_on_dminor_2_pressed"]
+[connection signal="pressed" from="EMAJOR2" to="." method="_on_emajor_2_pressed"]
+[connection signal="pressed" from="EMINOR2" to="." method="_on_eminor_2_pressed"]
+[connection signal="pressed" from="FMAJOR2" to="." method="_on_fmajor_2_pressed"]
+[connection signal="pressed" from="FMINOR" to="." method="_on_fminor_pressed"]
+[connection signal="pressed" from="GMAJOR2" to="." method="_on_gmajor_2_pressed"]
+[connection signal="pressed" from="GMINOR2" to="." method="_on_gminor_2_pressed"]
