@@ -1,32 +1,33 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733719993
+::res://::1733721165
 10-Things-To-Know-About-Red_Square-ETIC-Hotels.png::CompressedTexture2D::3973799803229375486::1733643168::1733643169::1::::<><>::
 2061404.webp::CompressedTexture2D::8651155827463250745::1733615527::1733615528::1::::<><>::
+06022023_POWERSELECTRIC_NEWCOLORS_ONWHITEANDONSET_6008_2_1600x.webp::CompressedTexture2D::6933394898857867337::1733721161::1733721166::1::::<><>::
 chalga_bace.gd::GDScript::-1::1733644095::0::1::::<>Node2D<>::
-chalga_bace.tscn::PackedScene::8142510325032704164::1733719358::0::1::::<><>::uid://dvixjjbp3c370::::res://2061404.webp<>res://chalga_bace.gd<>uid://bi5ywbv16phgw::::res://NewRocker-Regular.ttf<>uid://dl3y6apmgkaq1::::res://Edno Ferrari Model 2019.mp3<>uid://cv1ymth2kvse3::::res://Луда по тебе.mp3<>uid://djwq6lqr0ijk3::::res://GSMGSMGSM.mp3
+chalga_bace.tscn::PackedScene::8142510325032704164::1733720754::0::1::::<><>::uid://dvixjjbp3c370::::res://2061404.webp<>res://chalga_bace.gd<>uid://bi5ywbv16phgw::::res://NewRocker-Regular.ttf<>uid://dl3y6apmgkaq1::::res://Edno Ferrari Model 2019.mp3<>uid://cv1ymth2kvse3::::res://Луда по тебе.mp3<>uid://djwq6lqr0ijk3::::res://GSMGSMGSM.mp3
+classicg_uitar.tscn::PackedScene::1106312201197052784::1733720754::0::1::::<><>::
 control.gd::GDScript::-1::1733613342::0::1::::<>RefCounted<>::
 discord-notification.mp3::AudioStreamMP3::7879705689758546365::1733606004::1733610584::1::::<><>::
 Edno Ferrari Model 2019.mp3::AudioStreamMP3::7990654499374482986::1733610796::1733610796::1::::<><>::
+el_guitar.gd::GDScript::-1::1733720805::0::1::::<>Node2D<>::
+el_guitar.tscn::PackedScene::8835054882913708608::1733721021::0::1::::<><>::res://el_guitar.gd<>uid://bhqhsknvmrepb::::res://Electric Guitar Quick Chords/AMAJOR.mp3<>uid://cw7hd1bprpifv::::res://Electric Guitar Quick Chords/AMINOR.mp3<>uid://5xuxhqsplj6i::::res://Electric Guitar Quick Chords/BMAJOR.mp3<>uid://c0ic5fqbuddnp::::res://Electric Guitar Quick Chords/BMINOR.mp3<>uid://b8kkflojn5cpy::::res://Electric Guitar Quick Chords/CMAJOR.mp3<>uid://c1rcicp0s0ka3::::res://Electric Guitar Quick Chords/CMINOR.mp3<>uid://be338j03wd7wq::::res://Electric Guitar Quick Chords/DMAJOR.mp3<>uid://cjtl6ksxigs8e::::res://Electric Guitar Quick Chords/DMINOR.mp3<>uid://cdehukeabhsd8::::res://Electric Guitar Quick Chords/EMAJOR.mp3<>uid://d3brehr6hqk2b::::res://Electric Guitar Quick Chords/EMINOR.mp3<>uid://ccvkeyxrl6ae1::::res://Electric Guitar Quick Chords/FMAJOR.mp3
 Evala Krisko.mp3::AudioStreamMP3::1980529129927931881::1733610825::1733610825::1::::<><>::
 Gledai Kak Se Pravi.mp3::AudioStreamMP3::3558149992442743218::1733610796::1733610797::1::::<><>::
 GSMGSMGSM.mp3::AudioStreamMP3::7837405389186082948::1733618648::1733618648::1::::<><>::
 guitar.gd::GDScript::-1::1733616551::0::1::::<>Node2D<>::
-guitar.tscn::PackedScene::1719877864413733371::1733719358::0::1::::<><>::res://guitar.gd
+guitar.tscn::PackedScene::1719877864413733371::1733720754::0::1::::<><>::res://guitar.gd
 icon.svg::CompressedTexture2D::6535274779585176728::1733606004::1733610584::1::::<><>::
 istockphoto-1369087604-612x612.jpg::CompressedTexture2D::3544399260957329161::1733711968::1733711968::1::::<><>::
 NewRocker-Regular.ttf::FontFile::3011359346899044454::1733616016::1733616016::1::::<><>::
 Olde Thorass.otf::FontFile::8671769624442666758::1733617680::1733617790::1::::<><>::
-el_guitar.tscn::PackedScene::8835054882913708608::1733719358::0::1::::<><>::uid://dy544tfvmoqqr::::res://Electric Guitar Quick Chords/guitar-chord-a-major_140bpm_A_major.wav<>res://el_guitar.gd
-classicg_uitar.tscn::PackedScene::1106312201197052784::1733719358::0::1::::<><>::
-el_guitar.gd::GDScript::-1::1733719356::0::1::::<>Node2D<>::
 sound-fx-super-mario-let-s-go.wav::AudioStreamWAV::2247660372179353847::1733606004::1733610584::1::::<><>::
 soundboard.gd::GDScript::-1::1733616533::0::1::::<>Node2D<>::
-soundboard.tscn::PackedScene::3841603436816028103::1733719358::0::1::::<><>::res://soundboard.gd<>uid://bqq60dd0uhq8p::::res://istockphoto-1369087604-612x612.jpg<>uid://bwu65w6jknwq5::::res://10-Things-To-Know-About-Red_Square-ETIC-Hotels.png
+soundboard.tscn::PackedScene::3841603436816028103::1733720754::0::1::::<><>::res://soundboard.gd<>uid://bqq60dd0uhq8p::::res://istockphoto-1369087604-612x612.jpg<>uid://bwu65w6jknwq5::::res://10-Things-To-Know-About-Red_Square-ETIC-Hotels.png
 start.gd::GDScript::-1::1733616746::0::1::::<>Node2D<>::
-Start.tscn::PackedScene::7990432117772590508::1733719358::0::1::::<><>::res://start.gd<>uid://dvsw1qid5t7i5::::res://Olde Thorass.otf<>uid://7a1vxpxsfbtf::::res://sound-fx-super-mario-let-s-go.wav<>uid://dki8upkhiam6p::::res://discord-notification.mp3<>uid://3hna4m0u6ed2::::res://Evala Krisko.mp3<>uid://sf5uu74y4862::::res://thumb-350-1355525.webp
+Start.tscn::PackedScene::7990432117772590508::1733720754::0::1::::<><>::res://start.gd<>uid://dvsw1qid5t7i5::::res://Olde Thorass.otf<>uid://7a1vxpxsfbtf::::res://sound-fx-super-mario-let-s-go.wav<>uid://dki8upkhiam6p::::res://discord-notification.mp3<>uid://3hna4m0u6ed2::::res://Evala Krisko.mp3<>uid://sf5uu74y4862::::res://thumb-350-1355525.webp
 thumb-350-1355525.webp::CompressedTexture2D::1275579401167596229::1733613295::1733613296::1::::<><>::
 Луда по тебе.mp3::AudioStreamMP3::6301960552741940052::1733616880::1733616881::1::::<><>::
-::res://Electric Guitar Quick Chords/::1733719993
+::res://Electric Guitar Quick Chords/::1733721165
 AMAJOR.mp3::AudioStreamMP3::2911230342750749623::1733719993::1733719993::1::::<><>::
 AMINOR.mp3::AudioStreamMP3::6383487759740663559::1733719993::1733719993::1::::<><>::
 BMAJOR.mp3::AudioStreamMP3::2154401803818136402::1733719993::1733719993::1::::<><>::

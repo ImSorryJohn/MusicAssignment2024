@@ -1,3 +1,4 @@
+Sprite2D
 AudioStreamPlayer
 Button
 GridContainer
@@ -5,7 +6,6 @@ GridMap
 TextureRect
 HSlider
 VSlider
-Sprite2D
 Area2D
 Node2D
 Container

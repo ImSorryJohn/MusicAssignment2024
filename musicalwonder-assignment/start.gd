@@ -13,7 +13,7 @@ func _process(delta: float) -> void:
 
 func _on_button_pressed() -> void:
 	$Press.play()
-	get_tree().change_scene_to_file("res://guitar.tscn")
+	get_tree().change_scene_to_file("res://el_guitar.tscn")
 
 
 func _on_button_mouse_entered() -> void:
