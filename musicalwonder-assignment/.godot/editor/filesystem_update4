@@ -7,3 +7,17 @@ res://chalga_bace.tscn
 res://classicg_uitar.tscn
 res://start.gd
 res://default_bus_layout.tres
+res://v_slider_gmaj.gd
+res://h_slider_ami.gd
+res://h_slider_bmi.gd
+res://h_slider_cmi.gd
+res://h_slider_dmi.gd
+res://h_slider_emi.gd
+res://h_slider_fmi.gd
+res://h_slider_gmi.gd
+res://v_slider_amaj.gd
+res://v_slider_bmaj.gd
+res://v_slider_cmaj.gd
+res://v_slider_dmaj.gd
+res://v_slider_emaj.gd
+res://v_slider_fmaj.gd

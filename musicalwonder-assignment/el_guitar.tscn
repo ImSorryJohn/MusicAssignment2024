@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://dx41ce7ibf16c"]
+[gd_scene load_steps=59 format=3 uid="uid://dx41ce7ibf16c"]
 
 [ext_resource type="Script" path="res://el_guitar.gd" id="1_j3ar6"]
 [ext_resource type="Texture2D" uid="uid://c51uabfnx1rg0" path="res://06022023_POWERSELECTRIC_NEWCOLORS_ONWHITEANDONSET_6008_2_1600x.webp" id="2_a7grv"]
@@ -13,12 +13,107 @@
 [ext_resource type="AudioStream" uid="uid://cdehukeabhsd8" path="res://Electric Guitar Quick Chords/EMAJOR.mp3" id="10_p8j2t"]
 [ext_resource type="AudioStream" uid="uid://d3brehr6hqk2b" path="res://Electric Guitar Quick Chords/EMINOR.mp3" id="11_ijh5n"]
 [ext_resource type="AudioStream" uid="uid://ccvkeyxrl6ae1" path="res://Electric Guitar Quick Chords/FMAJOR.mp3" id="12_3yhtm"]
+[ext_resource type="AudioStream" uid="uid://b1ghmma1gtqtm" path="res://Electric Guitar Quick Chords/FMINOR.mp3" id="13_bj0xf"]
+[ext_resource type="Script" path="res://v_slider_gmaj.gd" id="14_lc7ju"]
+[ext_resource type="AudioStream" uid="uid://b2223qp5b8cc3" path="res://Electric Guitar Quick Chords/GMAJOR.mp3" id="14_y6qpk"]
+[ext_resource type="AudioStream" uid="uid://bwojxpaaq2f5u" path="res://Electric Guitar Quick Chords/GMINOR.mp3" id="15_h5go6"]
+[ext_resource type="Script" path="res://v_slider_fmaj.gd" id="18_tbnnk"]
+[ext_resource type="Script" path="res://v_slider_emaj.gd" id="19_4dxkr"]
+[ext_resource type="Script" path="res://v_slider_dmaj.gd" id="20_tar1w"]
+[ext_resource type="Script" path="res://v_slider_cmaj.gd" id="21_aey0r"]
+[ext_resource type="Script" path="res://v_slider_bmaj.gd" id="22_k5dss"]
+[ext_resource type="Script" path="res://v_slider_amaj.gd" id="23_gi5x4"]
+[ext_resource type="Script" path="res://h_slider_gmi.gd" id="24_a6vci"]
+[ext_resource type="Script" path="res://h_slider_fmi.gd" id="25_1141x"]
+[ext_resource type="Script" path="res://h_slider_emi.gd" id="26_e20hg"]
+[ext_resource type="Script" path="res://h_slider_dmi.gd" id="27_6o4sm"]
+[ext_resource type="Script" path="res://h_slider_cmi.gd" id="28_o1fp4"]
+[ext_resource type="Script" path="res://h_slider_bmi.gd" id="29_vpq03"]
+[ext_resource type="Script" path="res://h_slider_ami.gd" id="30_r8fcu"]
 
 [sub_resource type="InputEventAction" id="InputEventAction_yggod"]
 action = &"AMajor"
 
 [sub_resource type="Shortcut" id="Shortcut_sy6d6"]
 events = [SubResource("InputEventAction_yggod")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_8kxnp"]
+action = &"AMinor"
+
+[sub_resource type="Shortcut" id="Shortcut_peayh"]
+events = [SubResource("InputEventAction_8kxnp")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_pn7lv"]
+action = &"BMAJOR"
+
+[sub_resource type="Shortcut" id="Shortcut_20d0s"]
+events = [SubResource("InputEventAction_pn7lv")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_dpohi"]
+action = &"BMINOR"
+
+[sub_resource type="Shortcut" id="Shortcut_udovh"]
+events = [SubResource("InputEventAction_dpohi")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_mc7dd"]
+action = &"CMAJOR"
+
+[sub_resource type="Shortcut" id="Shortcut_5i5md"]
+events = [SubResource("InputEventAction_mc7dd")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_lrerq"]
+action = &"CMINOR"
+
+[sub_resource type="Shortcut" id="Shortcut_pxggg"]
+events = [SubResource("InputEventAction_lrerq")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_1cghx"]
+action = &"DMAJOR"
+
+[sub_resource type="Shortcut" id="Shortcut_7ot63"]
+events = [SubResource("InputEventAction_1cghx")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_qlcfm"]
+action = &"DMINOR"
+
+[sub_resource type="Shortcut" id="Shortcut_v241y"]
+events = [SubResource("InputEventAction_qlcfm")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_84p4g"]
+action = &"EMAJOR"
+
+[sub_resource type="Shortcut" id="Shortcut_1a5t4"]
+events = [SubResource("InputEventAction_84p4g")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_gv17u"]
+action = &"EMINOR"
+
+[sub_resource type="Shortcut" id="Shortcut_l4gqu"]
+events = [SubResource("InputEventAction_gv17u")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_4g8uj"]
+action = &"FMAJOR"
+
+[sub_resource type="Shortcut" id="Shortcut_6nmlt"]
+events = [SubResource("InputEventAction_4g8uj")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_8fs2o"]
+action = &"FMINOR"
+
+[sub_resource type="Shortcut" id="Shortcut_b6h08"]
+events = [SubResource("InputEventAction_8fs2o")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_rjbeq"]
+action = &"GMAJOR"
+
+[sub_resource type="Shortcut" id="Shortcut_s8n3w"]
+events = [SubResource("InputEventAction_rjbeq")]
+
+[sub_resource type="InputEventAction" id="InputEventAction_jf6in"]
+action = &"GMINOR"
+
+[sub_resource type="Shortcut" id="Shortcut_sgq8t"]
+events = [SubResource("InputEventAction_jf6in")]
 
 [node name="ElGuitar" type="Node2D"]
 script = ExtResource("1_j3ar6")
@@ -61,6 +156,7 @@ offset_top = 352.0
 offset_right = 1002.0
 offset_bottom = 417.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_peayh")
 text = "A-
 (A)"
 
@@ -74,6 +170,7 @@ offset_top = 422.0
 offset_right = 933.0
 offset_bottom = 487.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_20d0s")
 text = "B+
 (W)"
 
@@ -87,6 +184,7 @@ offset_top = 422.0
 offset_right = 1002.0
 offset_bottom = 487.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_udovh")
 text = "B-
 (S)"
 
@@ -100,6 +198,7 @@ offset_top = 492.0
 offset_right = 933.0
 offset_bottom = 557.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_5i5md")
 text = "C+
 (E)"
 
@@ -113,6 +212,7 @@ offset_top = 492.0
 offset_right = 1002.0
 offset_bottom = 557.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_pxggg")
 text = "C-
 (D)"
 
@@ -126,6 +226,7 @@ offset_top = 562.0
 offset_right = 933.0
 offset_bottom = 627.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_7ot63")
 text = "D+
 (R)"
 
@@ -139,6 +240,7 @@ offset_top = 562.0
 offset_right = 1003.0
 offset_bottom = 627.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_v241y")
 text = "D-
 (F)"
 
@@ -152,6 +254,7 @@ offset_top = 352.0
 offset_right = 1072.0
 offset_bottom = 417.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_1a5t4")
 text = "E+
 (I)"
 
@@ -165,6 +268,7 @@ offset_top = 352.0
 offset_right = 1142.0
 offset_bottom = 417.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_l4gqu")
 text = "E-
 (K)"
 
@@ -178,6 +282,7 @@ offset_top = 419.0
 offset_right = 1072.0
 offset_bottom = 484.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_6nmlt")
 text = "F+
 (O)"
 
@@ -191,10 +296,12 @@ offset_top = 419.0
 offset_right = 1142.0
 offset_bottom = 484.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_b6h08")
 text = "F-
 (L)"
 
 [node name="FMINOR2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_bj0xf")
 bus = &"FMINOR"
 
 [node name="GMAJOR2" type="Button" parent="."]
@@ -203,10 +310,12 @@ offset_top = 489.0
 offset_right = 1072.0
 offset_bottom = 554.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_s8n3w")
 text = "G+
 (P)"
 
 [node name="GMAJOR" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_y6qpk")
 bus = &"GMAJOR"
 
 [node name="GMINOR2" type="Button" parent="."]
@@ -215,10 +324,12 @@ offset_top = 489.0
 offset_right = 1142.0
 offset_bottom = 554.0
 theme_override_font_sizes/font_size = 20
+shortcut = SubResource("Shortcut_sgq8t")
 text = "G-
 (;)"
 
 [node name="GMINOR" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_h5go6")
 bus = &"GMINOR"
 
 [node name="VSliderGMAJ" type="VSlider" parent="."]
@@ -228,6 +339,8 @@ offset_right = 843.0
 offset_bottom = 629.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("14_lc7ju")
+bus_name = "GMAJOR"
 
 [node name="VSliderFMAJ" type="VSlider" parent="."]
 offset_left = 807.0
@@ -236,6 +349,8 @@ offset_right = 823.0
 offset_bottom = 629.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("18_tbnnk")
+bus_name = "FMAJOR"
 
 [node name="VSliderEMAJ" type="VSlider" parent="."]
 offset_left = 787.0
@@ -244,6 +359,8 @@ offset_right = 803.0
 offset_bottom = 629.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("19_4dxkr")
+bus_name = "EMAJOR"
 
 [node name="VSliderDMAJ" type="VSlider" parent="."]
 offset_left = 767.0
@@ -252,6 +369,8 @@ offset_right = 783.0
 offset_bottom = 629.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("20_tar1w")
+bus_name = "DMAJOR"
 
 [node name="VSliderCMAJ" type="VSlider" parent="."]
 offset_left = 747.0
@@ -260,6 +379,8 @@ offset_right = 763.0
 offset_bottom = 629.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("21_aey0r")
+bus_name = "CMAJOR"
 
 [node name="VSliderBMAJ" type="VSlider" parent="."]
 offset_left = 727.0
@@ -268,6 +389,8 @@ offset_right = 743.0
 offset_bottom = 629.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("22_k5dss")
+bus_name = "BMAJOR"
 
 [node name="VSliderAMAJ" type="VSlider" parent="."]
 offset_left = 707.0
@@ -276,6 +399,8 @@ offset_right = 723.0
 offset_bottom = 629.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("23_gi5x4")
+bus_name = "AMAJOR"
 
 [node name="HSliderGMI" type="HSlider" parent="."]
 offset_left = 867.0
@@ -284,6 +409,8 @@ offset_right = 1143.0
 offset_bottom = 328.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("24_a6vci")
+bus_name = "GMINOR"
 
 [node name="HSliderFMI" type="HSlider" parent="."]
 offset_left = 867.0
@@ -292,6 +419,8 @@ offset_right = 1143.0
 offset_bottom = 308.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("25_1141x")
+bus_name = "FMINOR"
 
 [node name="HSliderEMI" type="HSlider" parent="."]
 offset_left = 867.0
@@ -300,6 +429,8 @@ offset_right = 1143.0
 offset_bottom = 288.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("26_e20hg")
+bus_name = "EMINOR"
 
 [node name="HSliderDMI" type="HSlider" parent="."]
 offset_left = 867.0
@@ -308,6 +439,8 @@ offset_right = 1143.0
 offset_bottom = 268.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("27_6o4sm")
+bus_name = "DMINOR"
 
 [node name="HSliderCMI" type="HSlider" parent="."]
 offset_left = 867.0
@@ -316,6 +449,8 @@ offset_right = 1143.0
 offset_bottom = 248.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("28_o1fp4")
+bus_name = "CMINOR"
 
 [node name="HSliderBMI" type="HSlider" parent="."]
 offset_left = 867.0
@@ -324,6 +459,8 @@ offset_right = 1143.0
 offset_bottom = 228.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("29_vpq03")
+bus_name = "BMINOR"
 
 [node name="HSliderAMI" type="HSlider" parent="."]
 offset_left = 867.0
@@ -332,6 +469,8 @@ offset_right = 1143.0
 offset_bottom = 208.0
 max_value = 1.0
 step = 0.001
+script = ExtResource("30_r8fcu")
+bus_name = "AMINOR"
 
 [connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
 [connection signal="pressed" from="AMAJOR2" to="." method="_on_amajor_2_pressed"]
