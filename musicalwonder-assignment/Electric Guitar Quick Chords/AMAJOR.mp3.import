@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhqhsknvmrepb"
+path="res://.godot/imported/AMAJOR.mp3-fe370899664e5575ba5b76a6b1b19cee.mp3str"
+
+[deps]
+
+source_file="res://Electric Guitar Quick Chords/AMAJOR.mp3"
+dest_files=["res://.godot/imported/AMAJOR.mp3-fe370899664e5575ba5b76a6b1b19cee.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bwojxpaaq2f5u"
+path="res://.godot/imported/GMINOR.mp3-ab52bc4375bb1abaebc7980af926a3d4.mp3str"
+
+[deps]
+
+source_file="res://Electric Guitar Quick Chords/GMINOR.mp3"
+dest_files=["res://.godot/imported/GMINOR.mp3-ab52bc4375bb1abaebc7980af926a3d4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

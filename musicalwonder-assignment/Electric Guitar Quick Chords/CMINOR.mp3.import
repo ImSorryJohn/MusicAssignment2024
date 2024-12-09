@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1rcicp0s0ka3"
+path="res://.godot/imported/CMINOR.mp3-45d7fdfa1d3b7a02e9bda729f4bbdcf2.mp3str"
+
+[deps]
+
+source_file="res://Electric Guitar Quick Chords/CMINOR.mp3"
+dest_files=["res://.godot/imported/CMINOR.mp3-45d7fdfa1d3b7a02e9bda729f4bbdcf2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
